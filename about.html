@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main >
+        <section class="about-hero">
+            <h1>About Me</h1>
+            <div class="about-grid">
+                <div class="image-frame">
+                    <img class="profile-pic" src="profile.jpeg" alt="profile-pic" >
+                </div>
+                <div class="about-text">
+                    <p>Hi, I'm<strong> Zeeshan Firoz</strong>, a passionate and driven <strong> B.Tech </strong> student specializing in <strong>Electronics and Telecommunications Engineering</strong> at Veer Surendra Sai University of Technology, Burla. I have a strong interest in technology and a growing enthusiasm for web development, currently working on building my personal portfolio.</p>                        
+                    <p>I’m eager to expand my skills in front-end development, particularly focusing on writing clean <strong>HTML, CSS,</strong> and making responsive, user-friendly interfaces. Beyond code, I’m also exploring core concepts in electronics and Telecommunication and electronics circuit, and always looking for opportunities to learn and grow.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="education">
+            <div class="education-content">
+                <h2 class="section-title ">Education</h2>
+                <div class="education-item">
+                    <h3 class="education-degree">B.Tech in Electronics & Telecommunication</h3>
+                    <p class="education-institution">Veer Surendra Sai University of Technology (VSSUT), Burla</p>
+                    <p class="education-duration">2024 - Present</p>
+                </div>
+
+                <div class="education-item">
+                    <h3 class="education-degree">Higher Secondary Education</h3>
+                    <p class="education-institution">Municipal Higher Secondary school Rourkela</p>
+                    <p class="education-duration">2022 - 2024</p>
+                </div>
+
+                <div class="education-item">
+                    <h3 class="education-degree">Secondary Education</h3>
+                    <p class="education-institution">Hasanpur Urdu High School Rourkela</p>
+                    <p class="education-duration">2020 - 2022</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/Zeeshanfiroz" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/zeeshan-firoz-855641253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/mr7111w?igsh=Z2V6MGlyZDFwajli" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Zeeshan Firoz. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        // Simple JavaScript for the hamburger menu toggle
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+            document.querySelector('.hamburger').classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>

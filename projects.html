@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="projects">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>My Projects</h1>
+                <p>Explore my work and the projects I've been involved in. Each project showcases my skills and creativity.</p>
+            </div>
+        </section>
+       
+        <section class="projects-grid">
+            <div class="project-card" >
+                <div class="project-image">
+                    <img src="amazon.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h3>Amazone Landing Page</h3>
+                    <p>A fully responsive online store with product filtering, user accounts, and secure checkout system.</p>
+                    <button  class="View">View Project</button>
+                </div>
+            </div>
+            <div class="project-card" >
+                <div class="project-image">
+                    <img class="" src="portfolio.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h3>My Portfolio</h3>
+                    <p>A modern portfolio website showcasing creative work with smooth animations and intuitive navigation.</p>
+                      <button  class="View">View Project</button>
+                </div>
+            </div>
+            <div class="project-card" >
+                <div class="project-image">
+                    <img src="calculator.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h3>Simple Calculator </h3>
+                    <p>Developed a basic calculator using C with a command-line interface to perform arithmetic operations.</p>
+                     <button  class="View">View Project</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/Zeeshanfiroz" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/zeeshan-firoz-855641253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/mr7111w?igsh=Z2V6MGlyZDFwajli" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Zeeshan Firoz. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        // Simple JavaScript for the hamburger menu toggle
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+            document.querySelector('.hamburger').classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
